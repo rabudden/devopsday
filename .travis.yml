@@ -1,6 +1,6 @@
 sudo: required
 
 services:
-        - docker
+  - docker
 after success:
-        -sh .travis/deploy_docker_image.sh
+  -sh .travis/deploy_docker_image.sh
