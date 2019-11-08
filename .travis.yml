@@ -6,4 +6,4 @@ services:
 language: python
 
 before install:
-  -sh .travis/deploy_docker_image.sh
+  - sh .travis/deploy_docker_image.sh
