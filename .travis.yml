@@ -1,0 +1,6 @@
+sudo: required
+
+services:
+        - docker
+after success:
+        -sh .travis/deploy_docker_image.sh
